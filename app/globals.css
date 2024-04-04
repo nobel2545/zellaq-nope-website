@@ -2,32 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(37 37 37);
+  font-family: 'Koulen', 'IBM Sans Thai', sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* ฟอนต์ Koulen สำหรับภาษาอังกฤษ */
+@font-face {
+  font-family: 'Koulen';
+  src: url('/path/to/koulen.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ฟอนต์ IBM Plex Sans Thai สำหรับภาษาไทย */
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('/path/to/ibm_plex_sans_thai.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('/path/to/ibm_plex_sans_thai_bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ใช้ฟอนต์ Koulen สำหรับภาษาอังกฤษ */
+body {
+  font-family: 'Koulen', sans-serif;
+}
+
+/* ใช้ฟอนต์ IBM Plex Sans Thai สำหรับภาษาไทย */
+@media (prefers-language: thai) {
+  body {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
   }
 }
