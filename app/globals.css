@@ -29,4 +29,12 @@ body {
   font-style: normal;
 }
 
+.tag-menu {
+  padding: 5px;
+  background: #fbfbfb;
+  color: #c5c5c5;
+  text-align: center;
+  border-radius: 5px;
+}
+
 
