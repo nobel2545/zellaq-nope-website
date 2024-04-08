@@ -1,13 +1,13 @@
 
-
 export default function Home() {
   return (
-    <div className="min-h-[100vh] justify-center flex flex-col">
-      <div className="">
-        <div className="font-koulen ml-20 text-white text-8xl"> Hello visitor! </div>
-        <div className="font-koulen ml-20 text-white text-8xl"> Welcome to my space. </div>
-        <div className="font-ibm mt-5 ml-20 text-white text-5xl"> ยินดีต้อนรับผู้เข้าชมทุกท่าน เข้าสู่เว็บไซต์ของผมเอง เย้ </div>
-      </div>
+    
+    <div>
+      <img className=" max-w-[1920px] max-h-[1080px] static bg-cover" src="roomBackground.jpg" />
+
+      <img className=" absolute ml-10 p-10" src="folder_gacha.svg" />
+      <img className=" w-[400px] h-[400px] absolute top-[237px] left-[650px]" src="sohm.gif"/>
+    
     </div>
   );
 }

@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background: rgb(37 37 37);
   font-family: 'Koulen', 'IBM Sans Thai', sans-serif;
 }
 
@@ -30,14 +29,4 @@ body {
   font-style: normal;
 }
 
-/* ใช้ฟอนต์ Koulen สำหรับภาษาอังกฤษ */
-body {
-  font-family: 'Koulen', sans-serif;
-}
 
-/* ใช้ฟอนต์ IBM Plex Sans Thai สำหรับภาษาไทย */
-@media (prefers-language: thai) {
-  body {
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-  }
-}
