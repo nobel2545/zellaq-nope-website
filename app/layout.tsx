@@ -17,8 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={koulen.className}>{children}</body>
       <body className={ibm.className}>{children}</body>
+      <body className={koulen.className}>{children}</body>
     </html>
   );
 }

@@ -7,34 +7,43 @@ body {
 }
 
 /* ฟอนต์ Koulen สำหรับภาษาอังกฤษ */
-@font-face {
+.font-english {
   font-family: 'Koulen';
   src: url('/path/to/koulen.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* ฟอนต์ IBM Plex Sans Thai สำหรับภาษาไทย */
-@font-face {
-  font-family: 'IBM Plex Sans Thai';
-  src: url('/path/to/ibm_plex_sans_thai.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
-@font-face {
+.font-thai {
+  font-family: 'IBM Plex Sans Thai';
+  src: url('/path/to/ibm_plex_sans_thai_bold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-thaibold {
   font-family: 'IBM Plex Sans Thai';
   src: url('/path/to/ibm_plex_sans_thai_bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
-.tag-menu {
-  padding: 5px;
-  background: #fbfbfb;
-  color: #c5c5c5;
+.tag-button {
+  padding: 10px;
+  justify-items: center;
+  min-width: 250px;
+
   text-align: center;
+  color: #252525;
+  font-size: 30px;
+
+  background-color: white;
+
+  border: 5px;
+  border-color: red;
   border-radius: 5px;
 }
 
-
+.tag-tab {
+  background-color: #37302F;
+}
