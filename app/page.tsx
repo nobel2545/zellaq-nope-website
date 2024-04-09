@@ -17,19 +17,9 @@ export default function Home() {
 
         <div className="tag-tab font-thaibold absolute text-white p-3 pl-5 font-bold w-full " > ห้องฝ่ายบุคคลของโสมนัส </div>
 
-        <div className="absolute flex-row">
-          <div className="top-[160px] font-english text-black absolute top-[180px] left-[65px] p-10 text-white font-bold flex flex-col " >
-            <h1 className="text-xl"> Document for </h1>
-            <h2 className="text-4xl"> Beginner </h2>
-          </div>
-          <div className="top-[160px] font-english text-black absolute top-[180px] left-[65px] p-10 text-white font-bold flex flex-col " >
-            <h1 className="text-xl"> Document for </h1>
-            <h2 className="text-4xl"> Beginner </h2>
-          </div>
-          <div className="top-[160px] font-english text-black absolute top-[180px] left-[65px] p-10 text-white font-bold flex flex-col " >
-            <h1 className="text-xl"> Document for </h1>
-            <h2 className="text-4xl"> Beginner </h2>
-         </div>
+        <div className="top-[160px] font-english text-black absolute top-[180px] left-[65px] p-10 text-white font-bold flex flex-col " >
+          <h1 className="text-xl"> Document for </h1>
+          <h2 className="text-4xl"> Beginner </h2>
         </div>
 
         <div className="mr-10 p-10 absolute flex space-x-10 flex-row bottom-0 right-0" >
