@@ -46,6 +46,24 @@ body {
   border-radius: 20px;
 }
 
+.tag-button-hover {
+  padding: 10px;
+  justify-items: center;
+  min-width: 250px;
+
+  text-align: center;
+  color: #423835;
+  font-family: Koulen;
+  font-size: 30px;
+
+  background-color: #caccda;
+
+  border: 2.5px;
+  border-style: solid;
+  border-color: #252525;
+  border-radius: 20px;
+}
+
 .tag-tab {
   background-color: #37302F;
 }
