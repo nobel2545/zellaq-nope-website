@@ -34,14 +34,16 @@ body {
   min-width: 250px;
 
   text-align: center;
-  color: #252525;
+  color: #caccda;
+  font-family: Koulen;
   font-size: 30px;
 
-  background-color: white;
+  background-color: #423835;
 
-  border: 5px;
-  border-color: red;
-  border-radius: 5px;
+  border: 2.5px;
+  border-style: solid;
+  border-color: #caccda;
+  border-radius: 20px;
 }
 
 .tag-tab {
