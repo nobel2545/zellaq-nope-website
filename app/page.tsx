@@ -7,6 +7,8 @@ import React, { useState } from 'react';
 
 export default function Home() {
 
+  const RandomPage = [ "/spinsalt" , "/spinrare" , "/spinlegend" ];
+
   const [isObject2Clicked, setIsObject2Clicked] = useState(false);
   const [isObject3Clicked, setIsObject3Clicked] = useState(false);
   const [isObject4Clicked, setIsObject4Clicked] = useState(false);
@@ -48,8 +50,8 @@ export default function Home() {
         </div>
 
         <div className="mr-10 p-10 absolute flex space-x-10 flex-row bottom-0 right-0" >
-          <a href="/spinone" className="tag-button hover:border-black hover:border-3 hover:bg-gray-100 hover:text-black "> search x 1</a>
-          <a href="/spinten" className="tag-button hover:border-black hover:border-3 hover:bg-gray-100 hover:text-black "> search x 10 </a>
+          <a href="/spinone/spinsalt" className="tag-button hover:border-black hover:border-3 hover:bg-gray-100 hover:text-black "> search x 1</a>
+          <a href="/spinten/spinlegend" className="tag-button hover:border-black hover:border-3 hover:bg-gray-100 hover:text-black "> search x 10 </a>
         </div>
       </div>
 
