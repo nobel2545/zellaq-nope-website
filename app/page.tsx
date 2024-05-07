@@ -44,8 +44,15 @@ export default function Home() {
           <div className="tag-tab font-thaibold absolute text-white p-3 pl-5 font-bold w-full " > ห้องฝ่ายบุคคลของโสมนัส / ตู้กาชา </div>
           
           <div className="flex absolute top-3 right-4 space-x-5">
-            <img className="w-[24px] h-[24px]" src="history.svg" />
-            <img className="w-[25px] h-[25px]" src="info-circle.svg" />
+
+            <a href="/history">
+              <img className="w-[24px] h-[24px]" src="history.svg" />
+            </a>
+
+            <a href="/info">
+              <img className="w-[25px] h-[25px]" src="info-circle.svg" />
+            </a>
+            
           </div>
         </div>
 
