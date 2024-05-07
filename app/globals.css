@@ -88,10 +88,20 @@ body {
   border: none; /* ลบเส้นเส้นแบบพื้นฐาน */
   border-top: 2px solid #000000; /* สร้างเส้นด้วยสีเทาเข้ม */
   transform: rotate(90deg);
+  margin-left: -400px;
 }
 
+.tag-mid {
+  margin-left: 800px;
+}
 
+.tag-mid-down {
+  margin-top: 325px;
+}
 
+.tag-mid-downmak {
+  margin-top: 500px;
+}
 
 .tag-popup {
   position: fixed;

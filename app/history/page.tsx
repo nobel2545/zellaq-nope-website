@@ -119,8 +119,55 @@ export default function history() {
                     </div>
                 </div>
 
-                <div className="center lineup"></div>
-                <h1 className="absolute mt-10 ml-60 text-5xl"> Collection </h1>
+                <div className="mt-20 lineup"></div>
+                <h1 className="tag-mid absolute mt-10 text-7xl"> Collection </h1>
+                <div className="flex flex-col font-thaibold text-3xl space-y-10 mt-40 ml-10">
+
+                  <div className="flex flex-row space-x-14">
+                   <div className="flex flex-col space-y-5">
+                    <div className="flex flex-row space-x-80">
+                        <h1 className="fixed"> ระดับตำนาน </h1>
+                        <h2> o / ๒ </h2>
+                    </div>
+                    <img src="legend_bar.png" className="w-[450px]"/>
+                   </div>
+                   <img src="gift.svg" />
+                  </div>
+
+                  <div className="flex flex-row space-x-14">
+                   <div className="flex flex-col space-y-5">
+                    <div className="flex flex-row space-x-80">
+                        <h1 className="fixed"> ระดับหายาก</h1>
+                        <h2> ๑ / ๑o </h2>
+                    </div>
+                    <img src="rare_bar.png" className="w-[450px]"/>
+                   </div>
+                   <img src="gift.svg" />
+                  </div>
+
+                  <div className="flex flex-row space-x-14">
+                   <div className="flex flex-col space-y-5">
+                    <div className="flex flex-row space-x-80">
+                        <h1 className="fixed"> ระดับกลาง </h1>
+                        <h2> ๒ / ๓o </h2>
+                    </div>
+                    <img src="normal_bar.png" className="w-[450px]"/>
+                   </div>
+                   <img src="gift.svg" />
+                  </div>
+
+                  <div className="flex flex-row space-x-14">
+                  <div className="flex flex-col space-y-5">
+                    <div className="flex flex-row space-x-80">
+                        <h1 className="fixed"> ระดับทั่วไป </h1>
+                        <h2> ๑๒ / ๑oo </h2>
+                    </div>
+                    <img src="low_bar.png" className="w-[450px]"/>
+                   </div>
+                   <img src="gift.svg" />
+                  </div>
+                
+                </div>
             </div>
           </div>       
         </div>
