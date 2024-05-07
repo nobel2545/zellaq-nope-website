@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Spinrare() {
   const numOfImages = 8; // 8 รูปภาพ
-  const imageUrl = 'history.svg';
+  const imageUrl = 'salt.png';
   
   return (
     <div className="center grid grid-cols-4 gap-4 space-x-10 space-y-5">
