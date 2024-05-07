@@ -1,6 +1,5 @@
 "use client";
 
-import TulInfoImage from './tul_info.svg'; // นำเข้าภาพ
 import { useState } from 'react';
 
 export default function Spinsalt() {
