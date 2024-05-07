@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Spinrare() {
-  const numOfImages = 8; // 8 รูปภาพ
+  const numOfImages = 8; 
   const imageUrl = 'salt.png';
   
   return (
