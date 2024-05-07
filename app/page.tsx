@@ -57,8 +57,8 @@ export default function Home() {
         </div>
 
         <div className="mr-10 p-10 absolute flex space-x-10 flex-row bottom-0 right-0" >
-          <a href="/spinone/spinsalt" className="tag-button hover:border-black hover:border-3 hover:bg-gray-100 hover:text-black "> search x 1</a>
-          <a href="/spinten/spinlegend" className="tag-button hover:border-black hover:border-3 hover:bg-gray-100 hover:text-black "> search x 10 </a>
+          <a href="/spinone/spinsalt" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 1</a>
+          <a href="/spinone/spinrare" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 10 </a>
         </div>
       </div>
 
@@ -66,7 +66,7 @@ export default function Home() {
 
         <div>
 
-        <div className="flex flex-col space-y-48">
+        <div className="flex flex-col space-y-48 ">
          <div>
           <img className={`w-[350px] absolute mt-10 p-10 cursor-pointer`}
             onClick={() => {
@@ -77,7 +77,7 @@ export default function Home() {
             id="object2"
             src="folder_gacha.svg"
           />
-          <div className="top-[115px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col ">
+          <div className="top-[115px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col hover:text-black">
            <h1 className="text-xl">Document For</h1>
            <h2 className="text-5xl">Beginning</h2>
           </div>
@@ -93,7 +93,7 @@ export default function Home() {
             id="object3"
             src="folder_gacha.svg"
           />
-          <div className="top-[310px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col ">
+          <div className="top-[310px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col hover:text-black">
            <h1 className="text-xl">Time For</h1>
            <h2 className="text-5xl">Revenge</h2>
           </div>
@@ -109,7 +109,7 @@ export default function Home() {
             id="object4"
             src="folder_gacha.svg"
           />
-          <div className="top-[500px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col ">
+          <div className="top-[500px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col hover:text-black">
             <h1 className="text-xl">Soul Pathfinder</h1>
             <h2 className="text-5xl">Fire Series</h2>
           </div>

@@ -1,3 +1,12 @@
-export default function Spinone() {
-    return <div className="text-xl bg-black min-h-[100vh] "> Click to OPEN </div>
+import React from 'react';
+
+const MovingImage: React.FC = () => {
+  return (
+    <div>
+      <button className="center text-white"> Click to OPEN folder </button>
+      <img src="file_open.png" className="w-[200px] h-[100px] moving-image container" />
+    </div>
+  );
 }
+
+export default MovingImage;
