@@ -10,7 +10,7 @@ export default function Home() {
   const [isObject3Clicked, setIsObject3Clicked] = useState(false);
   const [isObject4Clicked, setIsObject4Clicked] = useState(false);
 
-  const handleObjectClick = (objectNumber) => {
+  const handleObjectClick = (objectNumber : number) => {
     switch (objectNumber) {
       case 2:
         setIsObject2Clicked(!isObject2Clicked);
@@ -54,8 +54,8 @@ export default function Home() {
         </div>
 
         <div className="mr-10 p-10 absolute flex space-x-10 flex-row bottom-0 right-0" >
-          <a href="/spinone/spinrare" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 1</a>
-          <a href="/salt" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 10 </a>
+          <a href="/openonefolder" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 1</a>
+          <a href="/opentenfolder" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 10 </a>
         </div>
       </div>
 

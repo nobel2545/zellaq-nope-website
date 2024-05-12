@@ -181,16 +181,15 @@ body {
   display: flex;
   justify-content: center; /* จัดให้เลย์เอาท์อยู่ตรงกลางของหน้าจอ */
   align-items: center; /* จัดให้เลย์เอาท์อยู่ตรงกลางของหน้าจอ */
-  height: 100vh; /* ทำให้คอนเทนเนอร์เต็มความสูงของหน้าจอ */
   overflow: hidden; /* ป้องกันการเลื่อนเนื้อหาเกินขอบของหน้าจอ */
 }
 
 @keyframes slideIn {
   0% {
-    transform: translateY(100%);
+    transform: translateY(300%);
   }
   100% {
-    transform: translateY(10%);
+    transform: translateY(50%);
   }
 }
 
