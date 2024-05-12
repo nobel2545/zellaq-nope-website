@@ -1,6 +1,6 @@
 //ในหน้านี้มีโค้ดที่ทำให้ปุ่มสามารถ Random Page ได้ แต่ยังพบ Error เมื่อในไปใช้จริง
 
-"use client"
+/*"use client"
 
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
@@ -27,3 +27,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+*/
