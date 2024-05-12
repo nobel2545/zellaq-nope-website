@@ -2,7 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
 
 export default function Home() {

@@ -1,11 +1,11 @@
 "use client"
 
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 export default function Animation() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = '/character';
+            window.location.href = "/character";
         }, 2000);
 
         return () => clearTimeout(timer);
