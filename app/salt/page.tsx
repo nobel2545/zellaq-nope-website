@@ -15,7 +15,7 @@ export default function Spinsalt() {
         ))}
         </div>
     
-        <a href="/result" className="fixed bottom-8 tag-button right-6 hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> next</a>
+        <a href="/salt-result" className="fixed bottom-8 tag-button right-6 hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> next</a>
     </div>
 
     
