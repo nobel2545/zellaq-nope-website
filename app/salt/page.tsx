@@ -1,10 +1,19 @@
 "use client";
 
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 
-export default function Spinsalt() {
+export default function Salt() {
 
     const numOfImages = 10; 
+
+    const [showCharacter, setShowCharacter] = useState(false);
+
+    useEffect(() => {
+      const timer = setTimeout(() => {
+          setShowCharacter(true);
+      }, 2000);
+      return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div>
@@ -15,7 +24,10 @@ export default function Spinsalt() {
         ))}
         </div>
     
+        {showCharacter && (
         <a href="/salt-result" className="fixed bottom-8 tag-button right-6 hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> next</a>
+        )}
+
     </div>
 
     

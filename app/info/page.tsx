@@ -1,4 +1,4 @@
-export default function history() {
+export default function Info() {
     return (
         <div>
             <div className="w-max-[1000px] h-[688px] mt-2 mx-1 bg-gray-400 rounded-2xl"> 

@@ -4,7 +4,7 @@
 
 import { useState } from 'react';
 
-export default function Legend() {
+export default function LegendResult() {
 
   return (
     <div>
