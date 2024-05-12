@@ -6,25 +6,6 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 export default function Home() {
-  const [isObject2Clicked, setIsObject2Clicked] = useState(false);
-  const [isObject3Clicked, setIsObject3Clicked] = useState(false);
-  const [isObject4Clicked, setIsObject4Clicked] = useState(false);
-
-  const handleObjectClick = (objectNumber : number) => {
-    switch (objectNumber) {
-      case 2:
-        setIsObject2Clicked(!isObject2Clicked);
-        break;
-      case 3:
-        setIsObject3Clicked(!isObject3Clicked);
-        break;
-      case 4:
-        setIsObject4Clicked(!isObject4Clicked);
-        break;
-      default:
-        break;
-    }
-  };
 
   return (
    <div>
@@ -65,15 +46,7 @@ export default function Home() {
 
         <div className="flex flex-col space-y-48 ">
          <div>
-          <img className={`w-[350px] absolute mt-10 p-10 cursor-pointer`}
-            onClick={() => {
-            handleObjectClick(2);
-            const newSrc = isObject2Clicked ? 'folder_gacha.svg' : 'folder_gacha_hover.svg';
-            document.getElementById('object2').src = newSrc; }}
-
-            id="object2"
-            src="folder_gacha.svg"
-          />
+          <img className="w-[350px] absolute mt-10 p-10 cursor-pointer" src="folder_gacha.svg"/>
           <div className="top-[115px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col hover:text-black">
            <h1 className="text-xl">Document For</h1>
            <h2 className="text-5xl">Beginning</h2>
@@ -81,15 +54,7 @@ export default function Home() {
          </div>
 
         <div>
-         <img className={`w-[350px] absolute mt-10 p-10 cursor-pointer`}
-           onClick={() => {
-            handleObjectClick(3);
-            const newSrc = isObject3Clicked ? 'folder_gacha.svg' : 'folder_gacha_hover.svg';
-            document.getElementById('object3').src = newSrc; }}
-          
-            id="object3"
-            src="folder_gacha.svg"
-          />
+         <img className="w-[350px] absolute mt-10 p-10 cursor-pointer" src="folder_gacha.svg"/>
           <div className="top-[310px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col hover:text-black">
            <h1 className="text-xl">Time For</h1>
            <h2 className="text-5xl">Revenge</h2>
@@ -97,15 +62,7 @@ export default function Home() {
         </div>
 
         <div>
-          <img className={`w-[350px] absolute mt-10 p-10 cursor-pointer`}
-            onClick={() => {
-            handleObjectClick(4);
-            const newSrc = isObject4Clicked ? 'folder_gacha.svg' : 'folder_gacha_hover.svg';
-            document.getElementById('object4').src = newSrc; }}
-
-            id="object4"
-            src="folder_gacha.svg"
-          />
+          <img className="w-[350px] absolute mt-10 p-10 cursor-pointer" src="folder_gacha.svg"/>
           <div className="top-[500px] font-english text-black absolute left-[65px] p-10 text-white flex flex-col hover:text-black">
             <h1 className="text-xl">Soul Pathfinder</h1>
             <h2 className="text-5xl">Fire Series</h2>
