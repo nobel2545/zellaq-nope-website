@@ -13,7 +13,7 @@ export default function Animation() {
 
     return (
         <div className="h-[100vh] bg-gradient-to-b from-indigo-700 via-purple-500 to-pink-500" >
-            <div className="fade-in flex justify-center absolute inset-0 grid place-items-center text-white text-5xl font-thaibold"> " ทุกคนควรได้รับความยุติธรรม " </div>
+            <div className="fade-in flex justify-center absolute inset-0 grid place-items-center text-white text-5xl font-thaibold"> &quot; ทุกคนควรได้รับความยุติธรรม &quot; </div>
         </div>
     );
 };
