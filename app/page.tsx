@@ -3,12 +3,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import React, { useState } from 'react';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 
 export default function Home() {
-
-  const RandomPage = [ "/spinsalt" , "/spinrare" , "/spinlegend" ];
-
   const [isObject2Clicked, setIsObject2Clicked] = useState(false);
   const [isObject3Clicked, setIsObject3Clicked] = useState(false);
   const [isObject4Clicked, setIsObject4Clicked] = useState(false);
@@ -31,14 +28,14 @@ export default function Home() {
 
   return (
    <div>
-      <img className="bg-cover absolute max-h-[750px]" src="rain.gif"/>
+      <img className="bg-cover absolute max-h-[740px]" src="rain.gif"/>
 
       <div>
-        <img className="bg-cover absolute max-h-[750px]" src="room.PNG" />
+        <img className="bg-cover absolute max-h-[740px]" src="room.PNG" />
 
-        <img className=" w-[300px] h-[300px] absolute top-[137px] left-[877px]" src="sohm.gif"/>
+        <img className=" w-[300px] h-[300px] absolute top-[137px] right-[342px]" src="sohm.gif"/>
 
-        <img className=" w-[150px] h-[150px] absolute top-[255px] left-[1205px]" src="deathflower.gif"/>
+        <img className=" w-[150px] h-[150px] absolute top-[255px] right-[160px]" src="deathflower.gif"/>
 
         <div>
           <div className="tag-tab font-thaibold absolute text-white p-3 pl-5 font-bold w-full " > ห้องฝ่ายบุคคลของโสมนัส / ตู้กาชา </div>
@@ -57,8 +54,8 @@ export default function Home() {
         </div>
 
         <div className="mr-10 p-10 absolute flex space-x-10 flex-row bottom-0 right-0" >
-          <a href="/spinone/spinsalt" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 1</a>
-          <a href="/spinone/spinrare" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 10 </a>
+          <a href="/spinone/spinrare" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 1</a>
+          <a href="/salt" className="tag-button hover:border-black hover:border-3 hover:bg-gray-400 hover:text-black "> search x 10 </a>
         </div>
       </div>
 

@@ -17,8 +17,6 @@ export default function Spinsalt() {
   return (
     <div className="bg-black">
       <button className="center text-white"> Click to OPEN folder </button>
-
-      /*popup*/
       <div className={`tag-popup ${popupActive ? 'active' : ''}`}></div>
       <div className={`tag-overlay absolute ${popupActive ? 'active' : ''}`}></div>
       <div className={`tag-popup-content flex flex-col space-y-6 ${popupActive ? 'active' : ''}`}>
